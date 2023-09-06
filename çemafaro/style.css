@@ -1,0 +1,39 @@
+*{
+margin: auto 0;
+padding: auto 0;
+box-sizing: center;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container span{
+display: block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+.vermelho{
+    background-color: red;
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color: rgb(0, 255, 0);
+}
+.container span + span {
+margin: 10px 0;
+}
+.vermelho-ativo{
+    background-color: red;
+}
+.amarelo-ativo{
+    background-color: yellow;
+    box-shadow: 0 0 15px 3px yellow;
+}
+.verde-ativo{
+    background-color: rgb(0, 255, 0);
+}
